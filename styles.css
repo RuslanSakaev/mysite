@@ -1,4 +1,50 @@
 /* Стили для меню */
+a {
+    text-decoration: none;
+}
+
+/* Стили для ссылок меню */
+.menu-link {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none; /* Добавьте это, чтобы убрать подчеркивание, как вы указали в предыдущем вопросе */
+}
+
+/* Стили для ссылок в состоянии наведения */
+.menu-link:hover {
+    color: darkblue;
+}
+
+/* Стили для заголовков h1 */
+.custom-h1 {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+    /* Если нужны отступы между заголовками, добавьте margin: 0 0 20px; */
+}
+
+/* Стили для параграфов */
+.custom-paragraph {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+    /* Дополнительные стили, если необходимо */
+}
+
+/* Стили для заголовков h2 */
+.custom-h2 {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+    /* Дополнительные стили, если необходимо */
+}
+
 ul.menu {
     list-style-type: none;
     margin: 0;
